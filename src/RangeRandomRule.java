@@ -1,5 +1,4 @@
-// TODO the rule must generate random numbers between 'min' inclusive and 'max' exclusive.
-// min and max must be the fields of the class
+
 
 import java.util.Random;
 
