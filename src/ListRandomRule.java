@@ -15,7 +15,7 @@ public class ListRandomRule implements IRandomRule {
 
     public int nextInt() {
         Random rnd = new Random();
-        return numbers.get(rnd.nextInt(numbers.size() + 1));
+        return numbers.get(rnd.nextInt(numbers.size()));
     }
 }
 
